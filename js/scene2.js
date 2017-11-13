@@ -55,13 +55,57 @@ function scene2() {
   // Stage direction 1
 
   frame(function() {
-
+    sword.style.top = '77%'
+    sword.style.left = '31%'
   })
-
-  // Stage direction 2
 
   frame(function() {
-
+    sword.style.top = '74%'
+    sword.style.left = '36%'
   })
 
+  frame(function() {
+    sword.style.top = '71%'
+    sword.style.left = '41%'
+  })
+
+  frame(function() {
+    sword.style.top = '68%'
+    sword.style.left = '47%'
+  })
+
+  frame(function() {
+    sword.style.top = '64%'
+    sword.style.left = '53%'
+  })
+
+    frame(function() {
+    joffrey.style.top = 0
+    joffrey.style.left = '33%'
+    joff.style.transform = 'rotateZ(220deg)'
+  })
+
+  frame(function() {
+    joffrey.style.top = '17%'
+    joffrey.style.left = '90%'
+    joff.style.transform = 'rotateZ(140deg)'
+  })
+
+  frame(function() {
+    joffrey.style.top = '35%'
+    joffrey.style.left = '160%'
+    joff.style.transform = 'rotateZ(260deg)'
+  })
+
+  frame(function() {
+    joffrey.style.top = '55%'
+    joffrey.style.left = '230%'
+    joff.style.transform = 'rotateZ(180deg)'
+  })
+
+  frame(function() {
+    joffrey.style.top = '75%'
+    joffrey.style.left = '300%'
+    joff.style.transform = 'rotateZ(100deg)'
+  })
 }
