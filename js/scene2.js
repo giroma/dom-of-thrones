@@ -1,7 +1,10 @@
 function scene2() {
   console.log('scene 2 executing');
   // Setup Stage
-
+  castle = document.querySelector('#castle')
+  stageImg = stage.querySelector('#stage-img')
+  castleImgSrc = castle.getAttribute('src')
+  stageImg.setAttribute('src', castleImgSrc)
   // Setup Cast
 
   // Character 1
